@@ -4,8 +4,20 @@ $color-gray: #666666;
 $color-light-gray: #eeeeee;
 
 // Font
-$font-serif: 'Noto Serif JP', serif;
-$font-sans-serif: 'Noto Sans JP', sans-serif;
+@font-face {
+    font-family: 'NotoSerifJP-Regular';
+    src: url('/Users/mukai/AppData/Local/Microsoft/Windows/Fonts/NotoSerifJP-Regular.otf');
+}
+@font-face {
+    font-family: 'NotoSansJP-Regular';
+    src: url('/Users/mukai/AppData/Local/Microsoft/Windows/Fonts/NotoSansJP-Regular.otf');
+}
+@font-face {
+    font-family: 'Consolas';
+    src: url('/Windows/Fonts/consola.ttf');
+}
+$font-serif: 'NotoSerifJP-Regular';
+$font-sans-serif: 'NotoSansJP-Regular';
 $font-monospace: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 $body-font-family: $font-serif;
 $nonbre-font-family: $font-serif;
