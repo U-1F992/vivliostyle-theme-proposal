@@ -16,9 +16,13 @@ $color-light-gray: #eeeeee;
     font-family: 'Consolas';
     src: url('/Windows/Fonts/consola.ttf');
 }
+@font-face {
+  font-family: "Meiryo";
+  src: url("/Windows/Fonts/meiryo.ttc");
+}
 $font-serif: 'NotoSerifJP-Regular';
 $font-sans-serif: 'NotoSansJP-Regular';
-$font-monospace: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+$font-monospace: 'Consolas', 'Meiryo';
 $body-font-family: $font-serif;
 $nonbre-font-family: $font-serif;
 
